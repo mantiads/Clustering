@@ -19,9 +19,17 @@ El dataset consta de dos tablas: "sociocom_unico.csv" con datos socioeconómicos
 
 Se utiliza el algoritmo Kmeans para la clasificación y, tras varias pruebas, se determina que el número óptimo de clusters que agrupa de mejor manera a los usuarios es de 12.
 
+<p align="center">
+  <img src="/img/clusters.PNG" alt="clustering">
+</p>
+
 ## CLUSTERS Y PERFILES
 
 Se crean 12 clusters, cada uno con un perfil característico que resume la situación laboral, antigüedad, nivel de productos contratados e interés en ahorro, financiación y servicios.
+
+<p align="center">
+  <img src="/img/clustering_heatmap.png" alt="clustering">
+</p>
 
 1. **Estudiante Activo Financieramente (Cluster 0):** Estudiante antiguo, tiene productos, no tiene interés en productos de ahorro e inversión, tiene interés en préstamos y servicios bancarios.
 2. **Trabajador Activo Financieramente (Cluster 1):** Trabajador antiguo, tiene productos, no tiene interés en productos de ahorro e inversión, tiene interés en préstamos y servicios bancarios.
@@ -36,3 +44,6 @@ Se crean 12 clusters, cada uno con un perfil característico que resume la situa
 11. **Trabajador Antiguo Pasivo Financieramente (Cluster 10):** Trabajador antiguo, no tiene productos, no tiene interés en productos de ahorro e inversión, tiene interés en préstamos y servicios bancarios.
 12. **Trabajador Inversionista Activo Bancariamente (Cluster 11):** Trabajador nuevo, tiene productos, tiene interés en productos de ahorro e inversión, no tiene interés en préstamos, tiene interés en servicios bancarios.
 
+<p align="center">
+  <img src="/img/clustering_distri.png" alt="clustering">
+</p>
